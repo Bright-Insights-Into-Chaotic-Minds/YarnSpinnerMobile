@@ -10,11 +10,12 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
-# Added due to some above tags not working
+# Added due to some above tags not working -- Ryan
 YarnSpinnerTest/Library/
 YarnSpinnerTest/Logs/
 YarnSpinnerTest/ProjectSettings/
 YarnSpinnerTest/Temp/
+YarnSpinnerTest/TestBuilds/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
