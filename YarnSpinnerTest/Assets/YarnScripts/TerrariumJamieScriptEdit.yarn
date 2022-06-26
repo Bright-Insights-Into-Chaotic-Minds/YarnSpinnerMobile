@@ -1,0 +1,90 @@
+﻿title: Start
+tags: 
+colorID: 1
+position: 27,221
+---
+It's a new day. I want to...
+-> Explore
+    <<jump Explore>>
+-> Talk to Neighbors
+    <<jump Neighbors>>
+===
+title: Explore
+tags: 
+colorID: 0
+position: 258,-39
+---
+There is so much to discover. I must go out and learn.
+-> Terrarium
+    <<jump Terrarium>>
+-> Lab
+    <<jump Lab>>
+===
+title: Terrarium
+tags: 
+colorID: 0
+position: 520,-149
+---
+The day is hot; the light seeping through the crack in the sky has been going on for several days worth of time.
+There is no nighttime any longer. The hours drag on.
+===
+title: Lab
+tags: 
+colorID: 0
+position: 521,59
+---
+You scramble through the other crack you have found. Not the one in the sky-- that one is too far. 
+This crack is low and hidden behind your home, in the broad leaves of the underbrush. 
+It is sharp and will cut you if you're not careful.
+<<jump Next>>
+===
+title: Neighbors
+tags: 
+colorID: 0
+position: 243,296
+---
+Neighbor: Hello, [playername]. 
+Neighbor: Our days have been so long. The crack in the sky is keeping us up all day and all... day.
+-> What can you tell me about the crack in the sky?
+    <<jump SkyCrack>>
+-> I believe I have a solution.
+    <<jump Solution>>
+-> I have to go.
+    <<jump Goodbye>>
+===
+title: SkyCrack
+tags: 
+colorID: 0
+position: 741,372
+---
+Neighbor: It appeared one day and lit up our world for days. It eventually went away, but we always feared it would come back. And it has.
+Neighbor: What can we do? Nothing. We have to live with it again.
+===
+title: Solution
+tags: 
+colorID: 0
+position: 740,155
+---
+PC: You'll have to trust me.
+Neighbor: What kind of solution?
+PC: The outside world has things we need: materials, information, knowledge.
+PC: I can bring them back with me and help us.
+Neighbor: I'll believe you when I see it. I have my own immediate problems to solve.
+===
+title: Next
+tags: 
+colorID: 0
+position: 735,-68
+---
+You enter that other world. Cavernous, bright, and always lacking any signs of other lifeforms.
+Whether it is inside your world, or you are inside of it, you can't tell.
+But you know it is strange and curious, and you want to know more. 
+So you look.
+===
+title: Goodbye
+tags: 
+colorID: 0
+position: 481,481
+---
+Neighbor: Goodbye.
+===
